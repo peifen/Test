@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="18dp" >
+
+    <TextView
+        android:id="@+id/popup_msg"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textColor="#717171"
+        android:text="删除并退出后，将不再接受此群的考试信息" />
+
+    <TextView
+        android:id="@+id/popup_confirm"
+        style="@style/BigBtnStyle"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:text="取消" />
+    
+    <TextView
+        style="@style/BigBtnStyle"
+        android:id="@+id/popup_neutrality"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:text="确定"
+        />
+
+    <TextView
+        style="@style/BigBtnStyle"
+        android:id="@+id/popup_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:text="取消"
+        android:textColor="#717171" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+    </LinearLayout>
+
+</LinearLayout>
